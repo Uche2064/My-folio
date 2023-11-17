@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/css/styles.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+  <link rel="stylesheet" href="./mediaQueries.css">
+  <title>Personnal portfolio website</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header id="header">
+      <div class="container">
+        <nav class="nav-bar">
+          <h1 class="logo"><span class="first_letter">U</span>che.</h1>
+          <button class="button-3">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          </button>
+          <ul class="nav-list">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>Frontend Dev</p>
+          <h1>Hi, I'm <span>Godswill</span><br>Lekwauwa From Togo</h1>
+        </div>
+      </div>
+</header>
+
+<main>
+    <!-- about me section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about__container_row--col-1">
+            <img src="./images/anime1.jpg" alt="My photo">
+          </div>
+          <div class="about__container_row--col-2">
+            <h1 class="about__col-2-title-1">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, earum, necessitatibus omnis obcaecati quasi doloribus cum dignissimos minima voluptatem repudiandae ad vero tenetur aliquam voluptates nostrum possimus corrupti consequatur itaque pariatur eius voluptatum, quod nemo officia est. Quod quia omnis numquam deleniti nam, iure porro accusantium dolore? Perspiciatis itaque ab ducimus et dicta sapiente aliquid nulla perferendis, obcaecati unde, ipsam, ea impedit neque repellendus esse!</p>
+
+            <div class="about__col-2-tab-titles">
+              <p class="tab_titles_tab-links active-link" onclick="openTab('skills');">Skills</p>
+              <p class="tab_titles_tab-links" onclick="openTab('experience');">Experience</p>
+              <p class="tab_titles_tab-links" onclick="openTab('education');">Education</p>
+            </div>
+
+            <div class="about__col-2-tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>App developper</span><br>Web app Developement</li>
+                <li><span>Web developper</span><br>Building Android/IOS apps</li>
+              </ul>
+            </div>
+            <div class="about__col-2-tab-contents" id="experience">
+              <ul>
+                <li><span>Few month of Experience</span></li>
+               
+              </ul>
+            </div>
+            <div class="about__col-2-tab-contents" id="education">
+              <ul>
+                <li><span>CCNA-1_V.7_Nov-22
+                  IAI_CCNA-1_V.7_MARS-2023</span><br>Cisco network academie certification</li>
+                <li><span>2021 - 2022</span><br>Some univeristy courses mainly Arithmetic, English, French and Accounting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+
+    <section id="services">
+      <div class="container">
+        <h1 class="services__container-t1">My Services</h1>
+        <div class="services__container-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Developement</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum qui dolorem accusantium possimus obcaecati ducimus .</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-person-chalkboard"></i>
+            <h2>French Courses</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum qui dolorem accusantium possimus obcaecati ducimus.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Developement</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum qui dolorem accusantium possimus obcaecati ducimus .</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+      <div class="container">
+        <h1 class="services__container-t1">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/anime5.jpg" alt="">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab error, omnis voluptates nulla aut tempora.</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/anime6.jpg" alt="">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab error, omnis voluptates nulla aut tempora.</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/anime7.jpg" alt="">
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab error, omnis voluptates nulla aut tempora.</p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1>Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>godswilllek02@gmailcom</p>
+            <p><i class="fab fa-whatsapp"></i><a class="whatsapp" href="wa.me/+22870872226">M'envoyer un message</a></p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <a href="./UcheLekwauwa.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name">
+              <input type="email" name="email" placeholder="Your Email">
+              <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fas fa-copyright"></i> Uche. 2023-11-15</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

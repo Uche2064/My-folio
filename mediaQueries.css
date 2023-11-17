@@ -1,0 +1,40 @@
+@media only screen and (max-width: 900px) {
+    :root {
+        /* font sizes */
+        --fs-sm: 1rem;
+        --fs-m: 1.5rem;
+        --fs-l: 2rem;
+        --fs-xl: 3.5rem;
+        --fs-xxxl: 4rem;
+        --fs-txt: 1.2rem;
+
+        --fc-secondary: #111C1B;
+        --fc-normal: #0D2D2A;
+    }  
+    
+    html {
+        font-size: 15px;
+    }
+    
+    header {
+        padding-top: 100px;
+    }
+
+    .container {
+        padding: 5px 10%;
+        margin: 0 auto;
+    }
+
+    #header .container nav .button-3 {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+
+    #header .container nav .nav-list li a {
+        font-size: var(--fs-m);
+    }
+}
