@@ -25,6 +25,7 @@ document.addEventListener("scroll", () => {
         headerNav.style.backgroundColor = "transparent";
     }
 })
+
 document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.hamburger');
     const navList = document.querySelector('.nav-list');

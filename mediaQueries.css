@@ -1,19 +1,11 @@
 @media only screen and (max-width: 900px) {
     :root {
-        /* font sizes */
-        --fs-sm: 1rem;
-        --fs-m: 1.5rem;
-        --fs-l: 2rem;
-        --fs-xl: 3.5rem;
-        --fs-xxxl: 4rem;
-        --fs-txt: 1.2rem;
-
         --fc-secondary: #111C1B;
         --fc-normal: #0D2D2A;
     }  
     
     html {
-        font-size: 15px;
+        font-size: 72.5%;
     }
     
     header {

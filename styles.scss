@@ -52,7 +52,7 @@ h1 {
     margin: 20px 0;
     width: fit-content;
     border: 1px solid var(--fc-txt-l);
-    padding: 14px 50px;
+    padding: 10px 35px;
     border-radius: 6px;
     text-decoration: none;
     color: white;
@@ -76,6 +76,8 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     font-size: var(--fs-s);
+    padding: 8px 40px;
+    
 }
 
 .row {
@@ -102,7 +104,7 @@ body {
 
 header section,
 .container {
-    padding: 5px 10%;
+    padding: 8px 10%;
 }
 
 #header {           
@@ -156,6 +158,8 @@ header section,
                     width: 50%;
                     transition: all 500ms ease-in-out;
                 }
+
+                
             }
         }
 
@@ -172,6 +176,7 @@ header section,
                 padding: 10px;
                 border-radius: 5px;
                 width: 180px;
+                
               }
             
             & li {
@@ -225,7 +230,7 @@ header section,
 
 // about me section 
 #about {
-    padding: 130px 0;
+    padding: 90px 0;
 
     & .row {
 
@@ -345,7 +350,7 @@ header section,
 // Portfolio
 
 #portfolio {
-    padding: 90px 0;
+    padding: 125px 0;
     & .work-list {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -390,7 +395,7 @@ header section,
 
                 & a {
                     margin-top: 20px;
-                    color: var(--fc-txt-h);
+                    color: black;
                     font-size: var(--fs-m);
                     line-height: 60px;
                     background: #fff;
@@ -402,11 +407,11 @@ header section,
 
                 & p {
                     font-size: var(--fs-sm);
+                    font-weight: var(--fw-s-bold);
                 }
             }
 
             &:hover {
-
                 & img { transform: scale(1.1); }
                 & .layer { height: 100%; }
             }
